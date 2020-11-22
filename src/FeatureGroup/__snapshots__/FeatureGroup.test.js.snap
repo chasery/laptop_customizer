@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeatureGroup component renders without errors 1`] = `
+<fieldset
+  className="feature"
+>
+  <legend
+    className="feature__name"
+  >
+    <h3 />
+  </legend>
+</fieldset>
+`;

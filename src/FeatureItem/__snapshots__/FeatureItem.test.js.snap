@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeatureItem component renders without errors 1`] = `
+<div
+  className="feature__item"
+>
+  <input
+    checked={true}
+    className="feature__option"
+    name=""
+    onChange={[Function]}
+    type="radio"
+  />
+  <label
+    className="feature__label"
+  >
+     (
+    $0.00
+    )
+  </label>
+</div>
+`;
