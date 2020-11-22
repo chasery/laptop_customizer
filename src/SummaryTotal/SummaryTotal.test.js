@@ -1,11 +1,11 @@
 import React from "react";
 import { shallow } from "enzyme";
 import toJson from "enzyme-to-json";
-import App from "./App";
+import SummaryTotal from "./SummaryTotal";
 
-describe("App component", () => {
+describe("SummaryTotal component", () => {
   it("renders without errors", () => {
-    const wrapper = shallow(<App />);
+    const wrapper = shallow(<SummaryTotal />);
     expect(toJson(wrapper)).toMatchSnapshot();
   });
 });

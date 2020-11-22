@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders without errors 1`] = `
+<div
+  className="App"
+>
+  <header>
+    <h1>
+      ELF Computing | Laptops
+    </h1>
+  </header>
+  <main>
+    <FeatureList
+      features={Array []}
+      selected={
+        Object {
+          "Display": Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          "Operating System": Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          "Processor": Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          "Video Card": Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+        }
+      }
+      updateFeature={[Function]}
+    />
+    <Summary
+      features={Array []}
+      selected={
+        Object {
+          "Display": Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          "Operating System": Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          "Processor": Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          "Video Card": Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+        }
+      }
+    />
+  </main>
+</div>
+`;
