@@ -1,17 +1,11 @@
 import React from "react";
+import { USCurrencyFormat } from "../USCurrencyFormat";
 import slugify from "slugify";
 import "./FeatureItem.css";
 
 class FeatureItem extends React.Component {
   render() {
     const { feature, item, itemHash, selected, updateFeature } = this.props;
-    const USCurrencyFormat = new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
-    });
-
-    console.log(selected);
-    console.log(feature);
 
     return (
       <div className="feature__item">

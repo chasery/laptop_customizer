@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SummaryOption component renders without errors 1`] = `
+<div
+  className="summary__option"
+>
+  <div
+    className="summary__option__label"
+  />
+  <div
+    className="summary__option__value"
+  />
+  <div
+    className="summary__option__cost"
+  >
+    $NaN
+  </div>
+</div>
+`;
