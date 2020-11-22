@@ -1,5 +1,6 @@
 import React from "react";
 import { USCurrencyFormat } from "../USCurrencyFormat";
+import "./SummaryOption.css";
 
 class SummaryOption extends React.Component {
   render() {

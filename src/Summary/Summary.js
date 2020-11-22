@@ -1,6 +1,7 @@
 import React from "react";
 import SummaryOption from "../SummaryOption/SummaryOption";
 import SummaryTotal from "../SummaryTotal/SummaryTotal";
+import "./Summary.css";
 
 class Summary extends React.Component {
   render() {
