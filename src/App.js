@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import FeatureList from "./FeatureList/FeatureList";
 import Summary from "./Summary/Summary";
 import "./App.css";
+import FEATURES from "./features";
 
 class App extends Component {
   state = {
@@ -26,7 +27,6 @@ class App extends Component {
   };
 
   updateFeature = (feature, newValue) => {
-    console.log(feature, newValue);
     const selected = Object.assign({}, this.state.selected);
     selected[feature] = newValue;
     this.setState({
@@ -42,7 +42,7 @@ class App extends Component {
         </header>
         <main>
           <FeatureList
-            features={this.props.features}
+            features={FEATURES}
             selected={this.state.selected}
             updateFeature={(feature, newValue) =>
               this.updateFeature(feature, newValue)
